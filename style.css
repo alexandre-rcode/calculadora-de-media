@@ -1,15 +1,12 @@
 
 
 body {
-    font-family: "Roboto Mono", monospace;
-    min-height: 400px;
-    background-image: url(img.media/imagenfundo2.jpg);
-    background-color: #000000;
-    background-size: 80vh;
-    background-position: center top;
-    background-repeat: no-repeat;
-    font-size: 16px;
-    background-size: 1200px;
+ height: 100vh;
+  background-color: black;
+  background-image: url(img.media/imagenfundo2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
   
   .container {
