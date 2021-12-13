@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de média</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img.media/favicon1.png" type="image/png">
+</head>
+<body>
+
+    <script src="index.js"></script>
+
+    
+    <div class="container">
+        <h1 class="page-title">
+          Calculadora de média</h1>
+        <p class="page-subtitle">
+          Bem vindo aluno(a), informe seu nome e suas notas para calcular sua média!
+        </p><br>
+    
+        <p class="txtCaixa">Nome: <input type="text" class="caixaNota" id="nome"></p></br>
+    
+        <p class="txtCaixa">Nota 1: <input type="number" class="caixaNota" id="nota1"></p>
+        <p class="txtCaixa">Nota 2: <input type="number" class="caixaNota" id="nota2"></p>
+        <p class="txtCaixa">Nota 3: <input type="number" class="caixaNota" id="nota3"></p>
+        <p class="txtCaixa">Nota 4: <input type="number" class="caixaNota" id="nota4"></p>
+        <input type="button" value="Calcular" class="btnSomar" onclick="somar()">
+        <div class="resultado" id="res"></div>
+      </div>
+</body>
+</html>

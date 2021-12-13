@@ -1,0 +1,62 @@
+
+
+body {
+  height: 100vh;
+  background-color: black;
+  background-image: url(img.media/imagenfundo2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: rgb(255, 255, 255);
+    margin: 35px 0 5px;
+    margin: 35px;
+  }
+  
+  .page-subtitle {
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+  }
+  
+  .txtCaixa {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bot: 0px;
+    
+  }
+
+  
+  .btnSomar {
+    margin-top: 20px;
+    background-color: #555555;
+    background-size: 16px;
+    border: none;
+    color: White;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px
+    font-family: "Roboto Mono", monospace;
+    cursor: pointer;
+   
+   
+  }
+  
+  .resultado {
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bot: 0px;
+    font-size: 30px;
+  }
